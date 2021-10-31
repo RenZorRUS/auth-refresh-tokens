@@ -1,0 +1,51 @@
+.header {
+    background-color: #5A189A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline-end: 5%;
+    padding-inline-start: 5%;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+}
+
+.logo {
+    color: white;
+    margin-bottom: 0;
+    flex: 25;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header .btn:not(:first-child) {
+    margin-left: 10px;
+}
+
+.btn {
+    font-weight: 300;
+    background-color: #9D4EDD;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn:active {
+    border: none;
+}
+
+.user-message {
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: white;
+    font-weight: 300;
+    flex: 5;
+}
+
+.username {
+    font-weight: 500;
+}

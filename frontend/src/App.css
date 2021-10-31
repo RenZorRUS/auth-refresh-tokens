@@ -1,0 +1,36 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+  background: linear-gradient(
+    -45deg,
+    #ff6d00,
+    #ff7900,
+    #ff8500,
+    #ff9100,
+    #ff9e00
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.App {
+    padding-bottom: 20px;
+}

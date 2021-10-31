@@ -4,6 +4,7 @@
   text-align: center;
   color: white;
   font-size: 30px;
+  user-select: none;
 }
 
 .list-group-item:first-child {
